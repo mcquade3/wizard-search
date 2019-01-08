@@ -1,0 +1,102 @@
+#search-group * {
+    margin: 0;
+}
+#search-group .search-buttons {
+    float: left;
+    max-width: 100%;
+}
+#search-group .search-option-btn {
+    background: rgb(0,100,200);
+    padding-left: 15px;
+    padding-right: 60px;
+    line-height: 48px;
+    margin-bottom: 30px;
+    width: 100%;
+    border: none;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+#search-group .search-active > .search-option-btn {
+    margin-bottom: 0;
+}
+#search-group .search-option-btn .option-text {
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    height: 100%;
+    margin-top: 14px;
+}
+#search-group .search-option-btn .option-text i {
+    position: absolute;
+    right: 15px;
+}
+#search-group .search-container {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+#search-group .search-container .option-form {
+    display: inline-block;
+    margin-top: 30px;
+}
+#search-group .search-container .option-menu {
+    display: none;
+    background: rgb(0,100,200);
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+    vertical-align: top;
+    z-index: 5;
+}
+#search-group .search-container .option-menu-active {
+    display: flex;
+    flex-direction: column;
+}
+#search-group .search-container .option-menu .checkbox-wrapper {
+    display: inline;
+    padding: 5px 15px;
+}
+#search-group .search-container .option-menu .checkbox-wrapper .checkbox-label {
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 10px;
+    max-width: 90%;
+}
+#search-group .search-option-btn .search-input {
+    display: none;
+}
+#search-group .search-active input[type="search"] {
+    display: inline;
+    width: 280px;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0;
+    background: transparent;
+    border-left: 2px solid rgba(255,255,255,0.4);
+    margin-left: 10px;
+    padding-left: 10px;
+}
+#search-group .search-active {
+    margin-bottom: 0;
+}
+#search-group .search-button-inactive {
+    opacity: .41;
+}
+#search-group .option-submit {
+    display: none;
+    position: relative;
+    margin: 5px 0;
+}
+#search-group .option-submit-active {
+    display: inline-block;
+}
+.search-button .fa-arrow-right {
+    top: 17px;
+}
+input[type="search"] {
+    border: none;
+    color: rgba(255,255,255,0.7);
+}
